@@ -1,27 +1,9 @@
-*.bin
-*.pth
-*.pt
-*.ckpt
-*.safetensors
-*.h5
-*.hdf5
-*.keras
-*.pkl
-*.pickle
-*.npy
-*.npz
-*.onnx
-*.zip
-*.rar
-*.7z
-*.tar
-*.gz
-*.bz2
-*.img
-*.iso
-*.exe
-*.dll
-*.so
+# Ignore all files inside these directories
+results/*
+checkpoints/*
+dataset/*
 
-.idea/
-checkpoints/
+# Keep placeholder files so the folders remain in Git
+!results/.gitkeep
+!checkpoints/.gitkeep
+!dataset/.gitkeep
